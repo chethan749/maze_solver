@@ -1,27 +1,3 @@
-'''
-Team Id: eYRC-NT#558
-Author List: Rahul Patil, Rahul Ramprasad, Rohit Goud, Chethan K P
-Filename: section1.py
-Theme: Navigate a terrain
-Functions:
-    sine(angle)
-    cosine(angle)
-    readImage(filepath)
-    findNeighbours(img, level, cellnum, size)
-    colourCell(img, level, cellnum, size, colourVal)
-    buildGraph(img, size)
-    findStartPoint(img, size)
-    findPath(graph, initial, final)
-    next_num()
-    numberMaze(graph, initial, new, l)
-    shortestNumberedPath(l, initial, final, path)
-    main(filePath, flag)
-Global variables:
-    x - list
-    path - list
-    new - Dictionary
-    l - list
-'''
 import numpy as np
 import cv2
 import math
